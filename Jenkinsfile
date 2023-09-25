@@ -63,7 +63,7 @@ pipeline {
         }
         stage('Deploy to Production') {
             steps {
-                echo "Deploying to production server (AWS EC2 instance)..."
+                echo "Deeploying to production server (AWS EC2 instance)..."
                 // Here you would use deployment scripts/tools to deploy to a production server
             }
         }
